@@ -10,10 +10,34 @@
 		AD58B71B1B3F051E00621AB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD58B71A1B3F051E00621AB8 /* AppDelegate.swift */; };
 		AD58B71D1B3F051E00621AB8 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD58B71C1B3F051E00621AB8 /* MasterViewController.swift */; };
 		AD58B71F1B3F051E00621AB8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD58B71E1B3F051E00621AB8 /* DetailViewController.swift */; };
-		AD58B7221B3F051E00621AB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD58B7201B3F051E00621AB8 /* Main.storyboard */; };
 		AD58B7241B3F051E00621AB8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD58B7231B3F051E00621AB8 /* Images.xcassets */; };
 		AD58B7271B3F051E00621AB8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD58B7251B3F051E00621AB8 /* LaunchScreen.xib */; };
 		AD58B7331B3F051E00621AB8 /* ConvoTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD58B7321B3F051E00621AB8 /* ConvoTrackerTests.swift */; };
+		AD58B73D1B3F204100621AB8 /* PersonDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD58B73C1B3F204100621AB8 /* PersonDetailController.swift */; };
+		AD58B73F1B3F22AA00621AB8 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD58B73E1B3F22AA00621AB8 /* DataModel.swift */; };
+		AD58B7411B3F22C000621AB8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD58B7401B3F22C000621AB8 /* Person.swift */; };
+		AD58B7431B3F235200621AB8 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD58B7421B3F235200621AB8 /* Note.swift */; };
+		AD58B7461B41D7E500621AB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD58B7441B41D7E500621AB8 /* Main.storyboard */; };
+		AD58B7481B41DB8F00621AB8 /* NoteForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD58B7471B41DB8F00621AB8 /* NoteForm.swift */; };
+		AD58B7761B432FDA00621AB8 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD58B7751B432FDA00621AB8 /* InterfaceController.swift */; };
+		AD58B7781B432FDA00621AB8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD58B7771B432FDA00621AB8 /* Images.xcassets */; };
+		AD58B77C1B432FDA00621AB8 /* ConvoTracker WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = AD58B77B1B432FDA00621AB8 /* ConvoTracker WatchKit App.app */; };
+		AD58B7841B432FDA00621AB8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD58B7821B432FDA00621AB8 /* Interface.storyboard */; };
+		AD58B7861B432FDA00621AB8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD58B7851B432FDA00621AB8 /* Images.xcassets */; };
+		AD58B7891B432FDA00621AB8 /* ConvoTracker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AD58B7711B432FDA00621AB8 /* ConvoTracker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AD58B7921B4330A100621AB8 /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD58B7911B4330A100621AB8 /* PersonController.swift */; };
+		ADABAF171B8C0FF200019827 /* PersonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADABAF161B8C0FF200019827 /* PersonRow.swift */; };
+		ADABAF191B8C0FFD00019827 /* NoteRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADABAF181B8C0FFD00019827 /* NoteRow.swift */; };
+		ADD278331B8D4F580081E3D6 /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = ADD278321B8D4F580081E3D6 /* about.html */; };
+		ADD278351B8D75340081E3D6 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD278341B8D75340081E3D6 /* AboutViewController.swift */; };
+		ADD6E4641B8CC3B800557392 /* thingy.h in Headers */ = {isa = PBXBuildFile; fileRef = ADD6E4631B8CC3B800557392 /* thingy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADD6E46A1B8CC3B800557392 /* thingy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD6E45F1B8CC3B800557392 /* thingy.framework */; };
+		ADD6E4731B8CC3B800557392 /* thingyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6E4721B8CC3B800557392 /* thingyTests.swift */; };
+		ADD6E4761B8CC3B800557392 /* thingy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD6E45F1B8CC3B800557392 /* thingy.framework */; };
+		ADD6E4771B8CC3B800557392 /* thingy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ADD6E45F1B8CC3B800557392 /* thingy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ADD6E4801B8CC3D000557392 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6E47F1B8CC3D000557392 /* Person.swift */; };
+		ADD6E4821B8CC3DD00557392 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6E4811B8CC3DD00557392 /* Note.swift */; };
+		ADD6E4841B8CC4BB00557392 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6E4831B8CC4BB00557392 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +48,74 @@
 			remoteGlobalIDString = AD58B7141B3F051E00621AB8;
 			remoteInfo = ConvoTracker;
 		};
+		AD58B77D1B432FDA00621AB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD58B70D1B3F051E00621AB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD58B77A1B432FDA00621AB8;
+			remoteInfo = "ConvoTracker WatchKit App";
+		};
+		AD58B7871B432FDA00621AB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD58B70D1B3F051E00621AB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD58B7701B432FDA00621AB8;
+			remoteInfo = "ConvoTracker WatchKit Extension";
+		};
+		ADD6E46B1B8CC3B800557392 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD58B70D1B3F051E00621AB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADD6E45E1B8CC3B800557392;
+			remoteInfo = thingy;
+		};
+		ADD6E46D1B8CC3B800557392 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD58B70D1B3F051E00621AB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD58B7141B3F051E00621AB8;
+			remoteInfo = ConvoTracker;
+		};
+		ADD6E4741B8CC3B800557392 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD58B70D1B3F051E00621AB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADD6E45E1B8CC3B800557392;
+			remoteInfo = thingy;
+		};
+		ADD6E4851B8CC4F300557392 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD58B70D1B3F051E00621AB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADD6E45E1B8CC3B800557392;
+			remoteInfo = thingy;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD58B7901B432FDA00621AB8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AD58B7891B432FDA00621AB8 /* ConvoTracker WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD6E47D1B8CC3B800557392 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				ADD6E4771B8CC3B800557392 /* thingy.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AD58B7151B3F051E00621AB8 /* ConvoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConvoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,12 +123,41 @@
 		AD58B71A1B3F051E00621AB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD58B71C1B3F051E00621AB8 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		AD58B71E1B3F051E00621AB8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		AD58B7211B3F051E00621AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD58B7231B3F051E00621AB8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AD58B7261B3F051E00621AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AD58B72C1B3F051E00621AB8 /* ConvoTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConvoTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD58B7311B3F051E00621AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD58B7321B3F051E00621AB8 /* ConvoTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvoTrackerTests.swift; sourceTree = "<group>"; };
+		AD58B73C1B3F204100621AB8 /* PersonDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDetailController.swift; sourceTree = "<group>"; };
+		AD58B73E1B3F22AA00621AB8 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		AD58B7401B3F22C000621AB8 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		AD58B7421B3F235200621AB8 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		AD58B7451B41D7E500621AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD58B7471B41DB8F00621AB8 /* NoteForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteForm.swift; sourceTree = "<group>"; };
+		AD58B7711B432FDA00621AB8 /* ConvoTracker WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ConvoTracker WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD58B7741B432FDA00621AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD58B7751B432FDA00621AB8 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		AD58B7771B432FDA00621AB8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AD58B77B1B432FDA00621AB8 /* ConvoTracker WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConvoTracker WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD58B7811B432FDA00621AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD58B7831B432FDA00621AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		AD58B7851B432FDA00621AB8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AD58B7911B4330A100621AB8 /* PersonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
+		AD9D84071B8AA98700B11693 /* ConvoTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ConvoTracker.entitlements; sourceTree = "<group>"; };
+		AD9D84081B8AAAA900B11693 /* ConvoTracker WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "ConvoTracker WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		ADABAF161B8C0FF200019827 /* PersonRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonRow.swift; sourceTree = "<group>"; };
+		ADABAF181B8C0FFD00019827 /* NoteRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteRow.swift; sourceTree = "<group>"; };
+		ADD278321B8D4F580081E3D6 /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
+		ADD278341B8D75340081E3D6 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		ADD6E45F1B8CC3B800557392 /* thingy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = thingy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD6E4621B8CC3B800557392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADD6E4631B8CC3B800557392 /* thingy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = thingy.h; sourceTree = "<group>"; };
+		ADD6E4691B8CC3B800557392 /* thingyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thingyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD6E4711B8CC3B800557392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADD6E4721B8CC3B800557392 /* thingyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thingyTests.swift; sourceTree = "<group>"; };
+		ADD6E47F1B8CC3D000557392 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		ADD6E4811B8CC3DD00557392 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		ADD6E4831B8CC4BB00557392 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +165,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADD6E4761B8CC3B800557392 /* thingy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +173,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD58B76E1B432FDA00621AB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD6E45B1B8CC3B800557392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD6E4661B8CC3B800557392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD6E46A1B8CC3B800557392 /* thingy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +206,10 @@
 			children = (
 				AD58B7171B3F051E00621AB8 /* ConvoTracker */,
 				AD58B72F1B3F051E00621AB8 /* ConvoTrackerTests */,
+				AD58B7721B432FDA00621AB8 /* ConvoTracker WatchKit Extension */,
+				AD58B77F1B432FDA00621AB8 /* ConvoTracker WatchKit App */,
+				ADD6E4601B8CC3B800557392 /* thingy */,
+				ADD6E46F1B8CC3B800557392 /* thingyTests */,
 				AD58B7161B3F051E00621AB8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +219,10 @@
 			children = (
 				AD58B7151B3F051E00621AB8 /* ConvoTracker.app */,
 				AD58B72C1B3F051E00621AB8 /* ConvoTrackerTests.xctest */,
+				AD58B7711B432FDA00621AB8 /* ConvoTracker WatchKit Extension.appex */,
+				AD58B77B1B432FDA00621AB8 /* ConvoTracker WatchKit App.app */,
+				ADD6E45F1B8CC3B800557392 /* thingy.framework */,
+				ADD6E4691B8CC3B800557392 /* thingyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,13 +230,21 @@
 		AD58B7171B3F051E00621AB8 /* ConvoTracker */ = {
 			isa = PBXGroup;
 			children = (
+				AD9D84071B8AA98700B11693 /* ConvoTracker.entitlements */,
+				AD58B7441B41D7E500621AB8 /* Main.storyboard */,
 				AD58B71A1B3F051E00621AB8 /* AppDelegate.swift */,
 				AD58B71C1B3F051E00621AB8 /* MasterViewController.swift */,
 				AD58B71E1B3F051E00621AB8 /* DetailViewController.swift */,
-				AD58B7201B3F051E00621AB8 /* Main.storyboard */,
 				AD58B7231B3F051E00621AB8 /* Images.xcassets */,
 				AD58B7251B3F051E00621AB8 /* LaunchScreen.xib */,
 				AD58B7181B3F051E00621AB8 /* Supporting Files */,
+				AD58B73C1B3F204100621AB8 /* PersonDetailController.swift */,
+				AD58B73E1B3F22AA00621AB8 /* DataModel.swift */,
+				AD58B7401B3F22C000621AB8 /* Person.swift */,
+				AD58B7421B3F235200621AB8 /* Note.swift */,
+				AD58B7471B41DB8F00621AB8 /* NoteForm.swift */,
+				ADD278321B8D4F580081E3D6 /* about.html */,
+				ADD278341B8D75340081E3D6 /* AboutViewController.swift */,
 			);
 			path = ConvoTracker;
 			sourceTree = "<group>";
@@ -115,7 +274,95 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		AD58B7721B432FDA00621AB8 /* ConvoTracker WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AD9D84081B8AAAA900B11693 /* ConvoTracker WatchKit Extension.entitlements */,
+				AD58B7751B432FDA00621AB8 /* InterfaceController.swift */,
+				AD58B7771B432FDA00621AB8 /* Images.xcassets */,
+				AD58B7731B432FDA00621AB8 /* Supporting Files */,
+				AD58B7911B4330A100621AB8 /* PersonController.swift */,
+				ADABAF161B8C0FF200019827 /* PersonRow.swift */,
+				ADABAF181B8C0FFD00019827 /* NoteRow.swift */,
+			);
+			path = "ConvoTracker WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		AD58B7731B432FDA00621AB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD58B7741B432FDA00621AB8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD58B77F1B432FDA00621AB8 /* ConvoTracker WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				AD58B7821B432FDA00621AB8 /* Interface.storyboard */,
+				AD58B7851B432FDA00621AB8 /* Images.xcassets */,
+				AD58B7801B432FDA00621AB8 /* Supporting Files */,
+			);
+			path = "ConvoTracker WatchKit App";
+			sourceTree = "<group>";
+		};
+		AD58B7801B432FDA00621AB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD58B7811B432FDA00621AB8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADD6E4601B8CC3B800557392 /* thingy */ = {
+			isa = PBXGroup;
+			children = (
+				ADD6E4631B8CC3B800557392 /* thingy.h */,
+				ADD6E4611B8CC3B800557392 /* Supporting Files */,
+				ADD6E47F1B8CC3D000557392 /* Person.swift */,
+				ADD6E4811B8CC3DD00557392 /* Note.swift */,
+				ADD6E4831B8CC4BB00557392 /* DataModel.swift */,
+			);
+			path = thingy;
+			sourceTree = "<group>";
+		};
+		ADD6E4611B8CC3B800557392 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADD6E4621B8CC3B800557392 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADD6E46F1B8CC3B800557392 /* thingyTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADD6E4721B8CC3B800557392 /* thingyTests.swift */,
+				ADD6E4701B8CC3B800557392 /* Supporting Files */,
+			);
+			path = thingyTests;
+			sourceTree = "<group>";
+		};
+		ADD6E4701B8CC3B800557392 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADD6E4711B8CC3B800557392 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ADD6E45C1B8CC3B800557392 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD6E4641B8CC3B800557392 /* thingy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		AD58B7141B3F051E00621AB8 /* ConvoTracker */ = {
@@ -125,10 +372,14 @@
 				AD58B7111B3F051E00621AB8 /* Sources */,
 				AD58B7121B3F051E00621AB8 /* Frameworks */,
 				AD58B7131B3F051E00621AB8 /* Resources */,
+				AD58B7901B432FDA00621AB8 /* Embed App Extensions */,
+				ADD6E47D1B8CC3B800557392 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AD58B7881B432FDA00621AB8 /* PBXTargetDependency */,
+				ADD6E4751B8CC3B800557392 /* PBXTargetDependency */,
 			);
 			name = ConvoTracker;
 			productName = ConvoTracker;
@@ -153,6 +404,77 @@
 			productReference = AD58B72C1B3F051E00621AB8 /* ConvoTrackerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		AD58B7701B432FDA00621AB8 /* ConvoTracker WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD58B78D1B432FDA00621AB8 /* Build configuration list for PBXNativeTarget "ConvoTracker WatchKit Extension" */;
+			buildPhases = (
+				AD58B76D1B432FDA00621AB8 /* Sources */,
+				AD58B76E1B432FDA00621AB8 /* Frameworks */,
+				AD58B76F1B432FDA00621AB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADD6E4861B8CC4F300557392 /* PBXTargetDependency */,
+				AD58B77E1B432FDA00621AB8 /* PBXTargetDependency */,
+			);
+			name = "ConvoTracker WatchKit Extension";
+			productName = "ConvoTracker WatchKit Extension";
+			productReference = AD58B7711B432FDA00621AB8 /* ConvoTracker WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		AD58B77A1B432FDA00621AB8 /* ConvoTracker WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD58B78A1B432FDA00621AB8 /* Build configuration list for PBXNativeTarget "ConvoTracker WatchKit App" */;
+			buildPhases = (
+				AD58B7791B432FDA00621AB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ConvoTracker WatchKit App";
+			productName = "ConvoTracker WatchKit App";
+			productReference = AD58B77B1B432FDA00621AB8 /* ConvoTracker WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+		ADD6E45E1B8CC3B800557392 /* thingy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD6E47C1B8CC3B800557392 /* Build configuration list for PBXNativeTarget "thingy" */;
+			buildPhases = (
+				ADD6E45A1B8CC3B800557392 /* Sources */,
+				ADD6E45B1B8CC3B800557392 /* Frameworks */,
+				ADD6E45C1B8CC3B800557392 /* Headers */,
+				ADD6E45D1B8CC3B800557392 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = thingy;
+			productName = thingy;
+			productReference = ADD6E45F1B8CC3B800557392 /* thingy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADD6E4681B8CC3B800557392 /* thingyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD6E47E1B8CC3B800557392 /* Build configuration list for PBXNativeTarget "thingyTests" */;
+			buildPhases = (
+				ADD6E4651B8CC3B800557392 /* Sources */,
+				ADD6E4661B8CC3B800557392 /* Frameworks */,
+				ADD6E4671B8CC3B800557392 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADD6E46C1B8CC3B800557392 /* PBXTargetDependency */,
+				ADD6E46E1B8CC3B800557392 /* PBXTargetDependency */,
+			);
+			name = thingyTests;
+			productName = thingyTests;
+			productReference = ADD6E4691B8CC3B800557392 /* thingyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -164,9 +486,36 @@
 				TargetAttributes = {
 					AD58B7141B3F051E00621AB8 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 5YW22MKNYB;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					AD58B72B1B3F051E00621AB8 = {
 						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = AD58B7141B3F051E00621AB8;
+					};
+					AD58B7701B432FDA00621AB8 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 5YW22MKNYB;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					AD58B77A1B432FDA00621AB8 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 5YW22MKNYB;
+					};
+					ADD6E45E1B8CC3B800557392 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 5YW22MKNYB;
+					};
+					ADD6E4681B8CC3B800557392 = {
+						CreatedOnToolsVersion = 6.4;
 						TestTargetID = AD58B7141B3F051E00621AB8;
 					};
 				};
@@ -186,6 +535,10 @@
 			targets = (
 				AD58B7141B3F051E00621AB8 /* ConvoTracker */,
 				AD58B72B1B3F051E00621AB8 /* ConvoTrackerTests */,
+				AD58B7701B432FDA00621AB8 /* ConvoTracker WatchKit Extension */,
+				AD58B77A1B432FDA00621AB8 /* ConvoTracker WatchKit App */,
+				ADD6E45E1B8CC3B800557392 /* thingy */,
+				ADD6E4681B8CC3B800557392 /* thingyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -195,13 +548,46 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD58B7221B3F051E00621AB8 /* Main.storyboard in Resources */,
+				ADD278331B8D4F580081E3D6 /* about.html in Resources */,
+				AD58B7461B41D7E500621AB8 /* Main.storyboard in Resources */,
 				AD58B7271B3F051E00621AB8 /* LaunchScreen.xib in Resources */,
 				AD58B7241B3F051E00621AB8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AD58B72A1B3F051E00621AB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD58B76F1B432FDA00621AB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD58B7781B432FDA00621AB8 /* Images.xcassets in Resources */,
+				AD58B77C1B432FDA00621AB8 /* ConvoTracker WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD58B7791B432FDA00621AB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD58B7841B432FDA00621AB8 /* Interface.storyboard in Resources */,
+				AD58B7861B432FDA00621AB8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD6E45D1B8CC3B800557392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD6E4671B8CC3B800557392 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -215,7 +601,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD58B7411B3F22C000621AB8 /* Person.swift in Sources */,
+				AD58B73F1B3F22AA00621AB8 /* DataModel.swift in Sources */,
+				AD58B7431B3F235200621AB8 /* Note.swift in Sources */,
+				ADD278351B8D75340081E3D6 /* AboutViewController.swift in Sources */,
+				AD58B7481B41DB8F00621AB8 /* NoteForm.swift in Sources */,
 				AD58B71F1B3F051E00621AB8 /* DetailViewController.swift in Sources */,
+				AD58B73D1B3F204100621AB8 /* PersonDetailController.swift in Sources */,
 				AD58B71D1B3F051E00621AB8 /* MasterViewController.swift in Sources */,
 				AD58B71B1B3F051E00621AB8 /* AppDelegate.swift in Sources */,
 			);
@@ -229,6 +621,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AD58B76D1B432FDA00621AB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADABAF191B8C0FFD00019827 /* NoteRow.swift in Sources */,
+				ADABAF171B8C0FF200019827 /* PersonRow.swift in Sources */,
+				AD58B7921B4330A100621AB8 /* PersonController.swift in Sources */,
+				AD58B7761B432FDA00621AB8 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD6E45A1B8CC3B800557392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD6E4801B8CC3D000557392 /* Person.swift in Sources */,
+				ADD6E4821B8CC3DD00557392 /* Note.swift in Sources */,
+				ADD6E4841B8CC4BB00557392 /* DataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD6E4651B8CC3B800557392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD6E4731B8CC3B800557392 /* thingyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -237,23 +658,61 @@
 			target = AD58B7141B3F051E00621AB8 /* ConvoTracker */;
 			targetProxy = AD58B72D1B3F051E00621AB8 /* PBXContainerItemProxy */;
 		};
+		AD58B77E1B432FDA00621AB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD58B77A1B432FDA00621AB8 /* ConvoTracker WatchKit App */;
+			targetProxy = AD58B77D1B432FDA00621AB8 /* PBXContainerItemProxy */;
+		};
+		AD58B7881B432FDA00621AB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD58B7701B432FDA00621AB8 /* ConvoTracker WatchKit Extension */;
+			targetProxy = AD58B7871B432FDA00621AB8 /* PBXContainerItemProxy */;
+		};
+		ADD6E46C1B8CC3B800557392 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADD6E45E1B8CC3B800557392 /* thingy */;
+			targetProxy = ADD6E46B1B8CC3B800557392 /* PBXContainerItemProxy */;
+		};
+		ADD6E46E1B8CC3B800557392 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD58B7141B3F051E00621AB8 /* ConvoTracker */;
+			targetProxy = ADD6E46D1B8CC3B800557392 /* PBXContainerItemProxy */;
+		};
+		ADD6E4751B8CC3B800557392 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADD6E45E1B8CC3B800557392 /* thingy */;
+			targetProxy = ADD6E4741B8CC3B800557392 /* PBXContainerItemProxy */;
+		};
+		ADD6E4861B8CC4F300557392 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADD6E45E1B8CC3B800557392 /* thingy */;
+			targetProxy = ADD6E4851B8CC4F300557392 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AD58B7201B3F051E00621AB8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AD58B7211B3F051E00621AB8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AD58B7251B3F051E00621AB8 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AD58B7261B3F051E00621AB8 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		AD58B7441B41D7E500621AB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD58B7451B41D7E500621AB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD58B7821B432FDA00621AB8 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD58B7831B432FDA00621AB8 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -295,7 +754,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -333,7 +792,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -344,9 +803,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ConvoTracker/ConvoTracker.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ConvoTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -354,9 +818,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ConvoTracker/ConvoTracker.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ConvoTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -394,6 +863,157 @@
 			};
 			name = Release;
 		};
+		AD58B78B1B432FDA00621AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = ConvoTracker_WatchKit_Extension;
+				INFOPLIST_FILE = "ConvoTracker WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		AD58B78C1B432FDA00621AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IBSC_MODULE = ConvoTracker_WatchKit_Extension;
+				INFOPLIST_FILE = "ConvoTracker WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		AD58B78E1B432FDA00621AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ConvoTracker WatchKit Extension/ConvoTracker WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ConvoTracker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AD58B78F1B432FDA00621AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ConvoTracker WatchKit Extension/ConvoTracker WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "ConvoTracker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		ADD6E4781B8CC3B800557392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = thingy/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ADD6E4791B8CC3B800557392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = thingy/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ADD6E47A1B8CC3B800557392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = thingyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConvoTracker.app/ConvoTracker";
+			};
+			name = Debug;
+		};
+		ADD6E47B1B8CC3B800557392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = thingyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConvoTracker.app/ConvoTracker";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -413,6 +1033,7 @@
 				AD58B7381B3F051E00621AB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD58B7391B3F051E00621AB8 /* Build configuration list for PBXNativeTarget "ConvoTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +1042,43 @@
 				AD58B73B1B3F051E00621AB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD58B78A1B432FDA00621AB8 /* Build configuration list for PBXNativeTarget "ConvoTracker WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD58B78B1B432FDA00621AB8 /* Debug */,
+				AD58B78C1B432FDA00621AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD58B78D1B432FDA00621AB8 /* Build configuration list for PBXNativeTarget "ConvoTracker WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD58B78E1B432FDA00621AB8 /* Debug */,
+				AD58B78F1B432FDA00621AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD6E47C1B8CC3B800557392 /* Build configuration list for PBXNativeTarget "thingy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD6E4781B8CC3B800557392 /* Debug */,
+				ADD6E4791B8CC3B800557392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD6E47E1B8CC3B800557392 /* Build configuration list for PBXNativeTarget "thingyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD6E47A1B8CC3B800557392 /* Debug */,
+				ADD6E47B1B8CC3B800557392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
