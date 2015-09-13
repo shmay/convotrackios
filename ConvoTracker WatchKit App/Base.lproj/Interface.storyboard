@@ -44,7 +44,7 @@
                                 <tableRow identifier="NoteRow" id="pc8-wh-STr" customClass="NoteRow" customModule="ConvoTracker_WatchKit_Extension">
                                     <group key="rootItem" width="1" alignment="left" id="V2h-qe-E9Z">
                                         <items>
-                                            <label width="1" height="1" alignment="left" text="Label" id="rHZ-KQ-AaA"/>
+                                            <label width="1" height="1" alignment="left" text="Label" numberOfLines="0" id="rHZ-KQ-AaA"/>
                                         </items>
                                     </group>
                                     <connections>

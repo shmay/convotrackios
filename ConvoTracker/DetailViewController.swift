@@ -32,6 +32,7 @@ class DetailViewController: UITableViewController, NoteFormControllerDelegate,Pe
       println("set title")
       title = p.name
     }
+    
 //    self.setEditing(true, animated: true)
   }
 
